@@ -1,0 +1,13 @@
+body {
+  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-size: 14px; 
+  /* 0.875rem */
+}
+
+body{
+  background-color: var(--bkg-1);
+}
