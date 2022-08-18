@@ -45,4 +45,9 @@ table {
 img {
   display: block;
   width: 100%;
+	border-radius: inherit;
+}
+
+span {
+	display: inline-block;
 }

@@ -1,12 +1,19 @@
 :root {
   --bkg-1: hsl(30, 38%, 92%);
   --primary-color1: hsl(158, 36%, 37%);
+  --primary-dark-color1: hsl(158, 36%, 20%);
   --neutral-color1: hsl(212, 21%, 14%);
   --neutral-color2: hsl(228, 12%, 48%);
-  --neutral-color3: hsl(0, 0%, 100%);;
+  --neutral-color3: hsl(0, 0%, 100%);
+
+
+        /* Font */
+  --font1: 'Montserrat', sans-serif; 
+  --font2: 'Fraunces', serif;
+        /* Font-Size */
+  --font-L: 18px;
+  --font-M: 14px;
+  --font-S: 12px;
+  
 }
 
-body {
-  font-family: 'Fraunces', serif;
-  font-family: 'Montserrat', sans-serif;
-}
