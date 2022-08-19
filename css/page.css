@@ -1,25 +1,36 @@
-body{
+.container{
   background-color: var(--bkg-1);
   display: grid;
+  grid-template-rows:1fr auto;
+  padding-inline: 1em;
+  justify-content: center;
   place-items: center;
   height: 100vh;
 }
 
 .card {
- width: 340px;
+  width: 340px;
   display: grid;
   border-radius: .75rem;
   background-color: var(--neutral-color3);
+  margin: 1em;
 }
 
 @media  (min-width: 1440px) {
   .card {
+    width: 680px;
     grid-template-columns: 1fr 1fr;
   }
 }
 
 .card__img {
   border-radius: .75rem .75rem 0 0;
+}
+
+@media (min-width: 1440px){
+  .card__img {
+    border-radius: .75rem 0 0 .75rem; 
+  }
 }
 
 .product {
@@ -85,18 +96,15 @@ body{
   outline: none;
   border: none;
   width: 100%;
-  background-color: var(--primary-color1);
-  border-radius: .5em;
-  display: grid;
-  align-items: center;
-  justify-content: center;
+  border-radius: .75em;
   padding-block: 1em;
+  background-color: var(--primary-color1);
   cursor: pointer;
   transition: 0.2s;
 }
 .bttn:hover{
   background-color: var(--primary-dark-color1);
-} 
+}
 
 .bttn__click {
   font-family: var(--font1);
@@ -107,9 +115,21 @@ body{
 
 .bttn__click::before{
   content: url('../images/icon-cart.svg');
+  display: inline-block;
+  vertical-align: middle;
   margin-right: 8px;
 }
 
 .attribution {
-  display: none;
+  align-self: end;
+  padding: 1em;
+  font-family: var(--font1);
+  font-size: var(--font-S);
+  color: var(--neutral-color2);
+}
+
+.attribution--link {
+  color: var(--primary-color1);
+  font-size: var(--font-M);
+  text-decoration: none;
 }
