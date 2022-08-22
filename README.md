@@ -34,10 +34,10 @@ Users should be able to:
 
 ### Screenshot
 
-**Small Screens:**
+**Small Screens:**  
 ![Small Screens](./375px.png)
 
-**Large Screens:**
+**Large Screens:**  
 ![Large Screens](./1440px.png)
 
 ## My process
